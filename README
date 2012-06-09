@@ -1,1 +1,10 @@
-to be added
+The problems are:
+`
+1. (concatenate)
+   Write a C Program to reverse a character array using pointers.
+
+2. (reverse)
+   Write a C Program to add two matrices using pointers.
+
+3. (matrix)
+   Write a C Program to concatenate two strings using pointers.
