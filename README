@@ -1,5 +1,13 @@
+Build instruction:
+$ cmake . && make
+
+CMake can also generate a project file for Eclipse CDT and Code::Block IDEs:
+$ make eclipse_cdt
+or
+$ make codeblock
+
 The problems are:
-`
+
 1. (concatenate)
    Write a C Program to reverse a character array using pointers.
 
