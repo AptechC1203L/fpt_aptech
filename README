@@ -8,11 +8,12 @@ $ make codeblock
 
 The problems are:
 
-1. (concatenate)
+LAB_8:
+1. (reverse)
    Write a C Program to reverse a character array using pointers.
 
-2. (reverse)
+2. (matrix)
    Write a C Program to add two matrices using pointers.
 
-3. (matrix)
+3. (concatenate)
    Write a C Program to concatenate two strings using pointers.
