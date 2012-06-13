@@ -1,3 +1,5 @@
+
+
 #include "../common.h"
 
 int factorial(int number)
@@ -7,9 +9,15 @@ int factorial(int number)
  return _number;
 }
 
+int re_factorial(int number)
+{
+if (number == 1) return 1;
+else return number * re_factorial(number-1);
+}
+
 int main(int argc, char ** argv) 
 {
 if (argc != 2) panic ("Usage: factorial <number>\n");
-printf("%d", factorial(atoi(argv[1])));
+printf("%d", re_factorial(atoi(argv[1])));
 return 0;
 }
